@@ -1,7 +1,7 @@
 /* Desktop */
 @media screen and (min-width: 750px) {
     body {
-        background: url('/images/pattern-background-desktop.svg'), hsl(225, 100%, 94%);
+        background: url('images/pattern-background-desktop.svg'), hsl(225, 100%, 94%);
         height: 900px;
     }
 
@@ -57,7 +57,7 @@
 /* Mobile */
 @media screen and (max-width: 749px) {
     body {
-        background: url('/images/pattern-background-mobile.svg'), hsl(225, 100%, 94%);
+        background: url('images/pattern-background-mobile.svg'), hsl(225, 100%, 94%);
     }
 
     #main-container {
@@ -197,6 +197,10 @@ body {
     font-weight: 900;
 }
 
+#change-link:hover {
+    color: hsl(245, 83%, 68%);
+}
+
 #action-btn {
     background-color: hsl(245, 75%, 52%);
     box-shadow: 0 20px 20px hsla(245, 75%, 52%, 0.2);
@@ -206,6 +210,12 @@ body {
     font-weight: 700;
     width: 100%;
     font-size: 15px;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+#action-btn:hover {
+    background-color: hsl(245, 83%, 68%);
 }
 
 #cancel-btn {
@@ -214,4 +224,10 @@ body {
     font-size: 15px;
     font-weight: 700;
     color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+#cancel-btn:hover {
+    color:hsl(223, 47%, 23%);
 }
