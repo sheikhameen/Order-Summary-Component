@@ -57,7 +57,7 @@
 /* Mobile */
 @media screen and (max-width: 749px) {
     body {
-        background: url('images/pattern-background-mobile.svg'), hsl(225, 100%, 94%);
+        background: url('/images/pattern-background-mobile.svg'), hsl(225, 100%, 94%);
     }
 
     #main-container {
