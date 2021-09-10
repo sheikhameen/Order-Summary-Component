@@ -1,7 +1,7 @@
 /* Desktop */
 @media screen and (min-width: 750px) {
     body {
-        background: url('images/pattern-background-desktop.svg'), hsl(225, 100%, 94%);
+        background: url('/images/pattern-background-desktop.svg'), hsl(225, 100%, 94%);
         height: 900px;
     }
 
