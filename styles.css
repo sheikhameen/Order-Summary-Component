@@ -195,6 +195,7 @@ body {
 #change-link {
     color: hsl(245, 75%, 52%);
     font-weight: 900;
+    outline: none;
 }
 
 #change-link:hover {
@@ -210,6 +211,7 @@ body {
     font-weight: 700;
     width: 100%;
     font-size: 15px;
+    outline: none;
     cursor: pointer;
     transition: background-color 200ms;
 }
@@ -224,6 +226,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     color: hsl(224, 23%, 55%);
+    outline: none;
     cursor: pointer;
     transition: color 200ms;
 }
