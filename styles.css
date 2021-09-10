@@ -1,0 +1,217 @@
+/* Desktop */
+@media screen and (min-width: 750px) {
+    body {
+        background: url('images/pattern-background-desktop.svg'), hsl(225, 100%, 94%);
+        height: 900px;
+    }
+
+    #main-container {
+        height: 100%;
+    }
+
+    #main-card {
+        width: 450px;
+    }
+    
+    #content-container {
+        padding: 40px 48px 48px 48px;
+    }
+    
+    #main-head {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    #main-paragraph {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #plan-container {
+        padding: 20px 24px;
+        margin-bottom: 32px;
+    }
+
+    #plan-details {
+        width: 166px;
+    }
+
+    #plan-details h3 {
+        font-size: 16px;
+    }
+
+    #plan-details p {
+        font-size: 17px;
+    }
+
+    #change-link {
+        font-size: 14px;
+    }
+
+    #action-btn {
+        padding: 17px;
+        margin-bottom: 35px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+    body {
+        background: url('images/pattern-background-mobile.svg'), hsl(225, 100%, 94%);
+    }
+
+    #main-container {
+        height: 100vh;
+    }
+    
+    #main-card {
+        width: 327px;
+    }
+    
+    #content-container {
+        padding: 28px 24px 36px 24px;
+    }
+
+    #main-head {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    #main-paragraph {
+        padding: 10px;
+        font-size: 15px;
+        margin-bottom: 13px;
+    }
+    
+    #plan-container {
+        padding: 11px 16px;
+        margin-bottom: 23px;
+    }
+
+    #plan-details {
+        width: 110px;
+    }
+
+    #plan-details h3 {
+        font-size: 14px;
+    }
+
+    #plan-details p {
+        font-size: 14px;
+    }
+
+    #change-link {
+        font-size: 13px;
+    }
+
+    #action-btn {
+        padding: 16.5px;
+        margin-bottom: 25px;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 30px hsla(245, 75%, 52%, 0.1);
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-head {
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+}
+
+#main-paragraph {
+    line-height: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+#plan-container {
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#music-icon {
+    width: 48px;
+    margin-top: 5px;
+}
+
+#plan-details {
+    text-align: left;
+}
+
+#plan-details h3 {
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+#plan-details p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+#change-link {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+#action-btn {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 20px 20px hsla(245, 75%, 52%, 0.2);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 100%;
+    font-size: 15px;
+}
+
+#cancel-btn {
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
